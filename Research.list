@@ -1,0 +1,107 @@
+# 直连补充列表(国内域名不解析时，防止走代理使用)
+
+# MyList
+# 域名后缀匹配
+DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,lanzov.com
+DOMAIN-SUFFIX,hao123.com
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+
+# 域名关键字匹配
+DOMAIN-KEYWORD,baidu
+
+# IP段匹配
+IP-CIDR,219.146.1.66/32,no-resolve
+
+# 学术网站
+# 关键词匹配
+DOMAIN-KEYWORD,pubmed
+DOMAIN-KEYWORD,ncbi.nlm.nih.gov
+DOMAIN-KEYWORD,onlinelibrary.wiley.com
+DOMAIN-KEYWORD,wiley
+DOMAIN-KEYWORD,scienceDIRECT
+DOMAIN-KEYWORD,pubs.rsc
+DOMAIN-KEYWORD,rsc
+DOMAIN-KEYWORD,elsevier
+DOMAIN-KEYWORD,tandfonline
+DOMAIN-KEYWORD,nature
+DOMAIN-KEYWORD,acs
+DOMAIN-KEYWORD,cas
+DOMAIN-KEYWORD,scifinder
+DOMAIN-KEYWORD,springer
+
+# 域名匹配
+DOMAIN-SUFFIX,scienceDIRECT.com
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-SUFFIX,manual.gromacs.org
+DOMAIN-SUFFIX,ccdc.cam.ac.uk
+DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,scitation.org
+DOMAIN-SUFFIX,rsc.org
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-SUFFIX,proquest.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,springerlink.com
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,worldscientific.com
+
+# 科技与工具
+# 关键词匹配
+DOMAIN-KEYWORD,translate
+DOMAIN-KEYWORD,docs
+DOMAIN-KEYWORD,onenote
+DOMAIN-KEYWORD,office
+DOMAIN-KEYWORD,microsoft
+
+# 域名匹配
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,adobe.io,REJECT
+
+# 文献管理与数据库
+# 关键词匹配
+DOMAIN-KEYWORD,webofscience
+DOMAIN-KEYWORD,webofknowledge
+DOMAIN-KEYWORD,clarivate
+
+# 域名匹配
+DOMAIN-SUFFIX,ebscohost.com
+DOMAIN-SUFFIX,emerald.com
+DOMAIN-SUFFIX,engineeringvillage.com
+DOMAIN-SUFFIX,libguides.com
+
+# 机构与出版商
+# 域名匹配
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,ams.org
+DOMAIN-SUFFIX,annualreviews.org
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,ascelibrary.org
+DOMAIN-SUFFIX,asm.org
+DOMAIN-SUFFIX,asme.org
+DOMAIN-SUFFIX,astm.org
+DOMAIN-SUFFIX,bmj.com
+DOMAIN-SUFFIX,oecd-ilibrary.org
+DOMAIN-SUFFIX,osapublishing.org
+DOMAIN-SUFFIX,oup.com
+DOMAIN-SUFFIX,ovid.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,sagepub.com
+DOMAIN-SUFFIX,siam.org
+DOMAIN-SUFFIX,spiedigitallibrary.org
+# 教育与研究机构
+# 域名匹配
+DOMAIN-SUFFIX,cuhk.edu.cn
+DOMAIN-SUFFIX,mpg.de
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,jamanetwork.com
+DOMAIN-SUFFIX,jhu.edu
+DOMAIN-SUFFIX,uni-bielefeld.de
+DOMAIN-SUFFIX,un.org
+
+
